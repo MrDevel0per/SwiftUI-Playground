@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A69C5B329AD5F5200AA5931 /* QUESTION.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A69C5B229AD5F5200AA5931 /* QUESTION.md */; };
 		5A69C5B629AD69E900AA5931 /* SOLUTION.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A69C5B529AD69E900AA5931 /* SOLUTION.md */; };
+		5A69C5B929AD6AF600AA5931 /* QUESTION.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A69C5B829AD6AF600AA5931 /* QUESTION.md */; };
 		5A70F83229AC564A003543C9 /* TextFieldRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A70F83129AC564A003543C9 /* TextFieldRepresentable.swift */; };
 		5A70F83429AC5B91003543C9 /* TextHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A70F83329AC5B91003543C9 /* TextHolder.swift */; };
 		5A853DFF299D4C80009E5B27 /* SwiftUI_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A853DFE299D4C80009E5B27 /* SwiftUI_PlaygroundApp.swift */; };
@@ -18,9 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A69C5B229AD5F5200AA5931 /* QUESTION.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = QUESTION.md; path = ../../../../../../../../Documents/QUESTION.md; sourceTree = "<group>"; };
 		5A69C5B529AD69E900AA5931 /* SOLUTION.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = SOLUTION.md; path = ../../../../../../../../../Downloads/SOLUTION.md; sourceTree = "<group>"; };
 		5A69C5B729AD69F900AA5931 /* SOLUTION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SOLUTION.md; sourceTree = "<group>"; };
+		5A69C5B829AD6AF600AA5931 /* QUESTION.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = QUESTION.md; sourceTree = "<group>"; };
 		5A70F83129AC564A003543C9 /* TextFieldRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldRepresentable.swift; sourceTree = "<group>"; };
 		5A70F83329AC5B91003543C9 /* TextHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHolder.swift; sourceTree = "<group>"; };
 		5A853DFB299D4C80009E5B27 /* SwiftUI Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +44,7 @@
 		5A69C5B129AD5E8F00AA5931 /* TextFieldStringToolbarButton */ = {
 			isa = PBXGroup;
 			children = (
-				5A69C5B229AD5F5200AA5931 /* QUESTION.md */,
+				5A69C5B829AD6AF600AA5931 /* QUESTION.md */,
 				5A69C5B729AD69F900AA5931 /* SOLUTION.md */,
 				5A69C5B429AD69B100AA5931 /* Code */,
 			);
@@ -155,10 +155,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A69C5B329AD5F5200AA5931 /* QUESTION.md in Resources */,
 				5A853E06299D4C81009E5B27 /* Preview Assets.xcassets in Resources */,
 				5A853E03299D4C81009E5B27 /* Assets.xcassets in Resources */,
 				5A69C5B629AD69E900AA5931 /* SOLUTION.md in Resources */,
+				5A69C5B929AD6AF600AA5931 /* QUESTION.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
