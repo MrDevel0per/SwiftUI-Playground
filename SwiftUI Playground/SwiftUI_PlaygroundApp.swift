@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUI_PlaygroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //This is subject to change based on the current problem
+            TextFieldStringToolbarButton()
         }
     }
 }
